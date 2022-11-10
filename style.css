@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Popins', sans-serif;
+    background-image: url(https://t4.ftcdn.net/jpg/05/05/39/11/240_F_505391155_RecBO9AXOzrKqWP78MfnSmARitEmCYa7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table td{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+}
+.red{
+    background-image: url(https://img.freepik.com/free-vector/realistic-bomb-illustration_1284-11507.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.green{
+    background-image: url(https://png.pngtree.com/png-vector/20191117/ourmid/pngtree-diamond-icon-cartoon-style-png-image_1990913.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal {
+    position: absolute;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+}
+
+.modal__open{
+    top:0
+}
+.modal__panel {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Popins', sans-serif;
+}
+.modal__title{
+    margin-bottom: 15px;
+}
+.modal__btn{
+    padding: 12px 24px;
+    background-color: transparent;
+    cursor:pointer;
+    font-size: 16px;
+    border: 1px solid #121212;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.modal__btn:hover{
+    background-color: #121212;
+    color: #fff;
+}
+.time__wrap {
+    margin-bottom: 24px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.start__btn{
+    padding: 12px 24px;
+    background-color: transparent;
+    cursor:pointer;
+    font-size: 16px;
+    border: 1px solid #121212;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.score__wrap{
+    width: 500px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.score__text_end {
+    padding: 5px;
+}

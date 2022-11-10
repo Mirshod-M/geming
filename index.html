@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="time__wrap">
+            <h1 class="time__text">00:00</h1>
+        </div>
+        <table class="table"></table>
+
+        <div class="score__wrap">
+            <h3 class="score__text">
+                Found correct: <span class="score__text-green">0</span>
+            </h3>
+            <h3 class="score__text">
+                Found wrong: <span class="score__text-red">0</span>
+            </h3>
+        </div>
+
+        <div class="modal end__modal">
+            <div class="modal__panel">
+                <h1 class="modal__title">GAME OVER</h1>
+                <button class="modal__btn restart__btn">Restart</button>
+                <h3 class="score__text_end">
+                    Found correct: <span class="score__text-green">0</span>
+                </h3>
+                <h3 class="score__text_end">
+                    Found wrong: <span class="score__text-red">0</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal start__modal modal__open">
+        <div class="modal__panel">
+            <h1 class="modal__title">START GAME</h1>
+            <button class="start__btn modal__btn">Start</button>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
